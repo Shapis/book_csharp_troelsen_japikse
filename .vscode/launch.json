@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/consle1/bin/Debug/net9.0/consle1.dll",
+            "program": "${workspaceFolder}/Chapter 3/SimpleCSharpApp/bin/Debug/net9.0/SimpleCSharpApp.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/consle1",
+            "cwd": "${workspaceFolder}/Chapter 3/SimpleCSharpApp",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false

@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/consle1/consle1.csproj",
+                "${workspaceFolder}/Chapter 3/Chapter3_AllProjects.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/consle1/consle1.csproj",
+                "${workspaceFolder}/Chapter 3/Chapter3_AllProjects.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/consle1/consle1.csproj"
+                "${workspaceFolder}/Chapter 3/SimpleCSharpApp/Chapter3_AllProjects.sln"
             ],
             "problemMatcher": "$msCompile"
         }
