@@ -10,7 +10,7 @@ FunWithStringBuilder();
 
 static void BasicStringFunctionality()
 {
-    Console.WriteLine("=> Basic String functionality:");
+    Console.WriteLine("-> Basic String functionality:");
     string firstName = "Freddy";
     Console.WriteLine("Value of firstName: {0}", firstName);
     Console.WriteLine("firstName has {0} characters.", firstName.Length);
@@ -23,7 +23,7 @@ static void BasicStringFunctionality()
 
 static void StringConcatenation()
 {
-    Console.WriteLine("=> String concatenation:");
+    Console.WriteLine("-> String concatenation:");
     string s1 = "Programming the ";
     string s2 = "PsychoDrill (PTP)";
     string s3 = s1 + s2;
@@ -33,7 +33,7 @@ static void StringConcatenation()
 
 static void EscapeChars()
 {
-    Console.WriteLine("=> Escape characters:");
+    Console.WriteLine("-> Escape characters:");
     string strWithTabs = "Model\tColor\tSpeed\tPet Name ";
     Console.WriteLine(strWithTabs);
     Console.WriteLine("Everyone loves \"Hello World\" ");
@@ -45,7 +45,7 @@ static void EscapeChars()
 
 static void StringInterpolation()
 {
-    Console.WriteLine("=> String interpolation:\a");
+    Console.WriteLine("-> String interpolation:\a");
     // Some local variables we will plug into our larger string
     int age = 4;
     string name = "Soren";
@@ -59,7 +59,7 @@ static void StringInterpolation()
 
 static void StringInterpolationWithDefaultInterpolatedStringHandler()
 {
-    Console.WriteLine("=> String interpolation under the covers:\a");
+    Console.WriteLine("-> String interpolation under the covers:\a");
     int age = 4;
     string name = "Soren";
     var builder = new DefaultInterpolatedStringHandler(3, 2);
@@ -74,7 +74,7 @@ static void StringInterpolationWithDefaultInterpolatedStringHandler()
 
 static void FunWithStringBuilder()
 {
-    Console.WriteLine("=> Using the StringBuilder:");
+    Console.WriteLine("-> Using the StringBuilder:");
     StringBuilder sb = new StringBuilder("**** Fantastic Games ****");
     sb.Append("\n");
     sb.AppendLine("Half Life");
